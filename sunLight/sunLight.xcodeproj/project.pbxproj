@@ -10,8 +10,14 @@
 		66A9EEE31FE2790500C0DE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EEE21FE2790500C0DE72 /* AppDelegate.swift */; };
 		66A9EEE51FE2790500C0DE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EEE41FE2790500C0DE72 /* ViewController.swift */; };
 		66A9EEE81FE2790500C0DE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEE61FE2790500C0DE72 /* Main.storyboard */; };
-		66A9EEEA1FE2790500C0DE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEE91FE2790500C0DE72 /* Assets.xcassets */; };
 		66A9EEED1FE2790500C0DE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEEB1FE2790500C0DE72 /* LaunchScreen.storyboard */; };
+		66A9EF0A1FE8E90B00C0DE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EEE41FE2790500C0DE72 /* ViewController.swift */; };
+		66A9EF0B1FE8E90B00C0DE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EEE21FE2790500C0DE72 /* AppDelegate.swift */; };
+		66A9EF0D1FE8E90B00C0DE72 /* Pods_sunLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C5A42BE1581464225F25B /* Pods_sunLight.framework */; };
+		66A9EF0F1FE8E90B00C0DE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEEB1FE2790500C0DE72 /* LaunchScreen.storyboard */; };
+		66A9EF111FE8E90B00C0DE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEE61FE2790500C0DE72 /* Main.storyboard */; };
+		66A9EF1B1FE8F3DA00C0DE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEE91FE2790500C0DE72 /* Assets.xcassets */; };
+		66A9EF1C1FE8F47500C0DE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A9EEE91FE2790500C0DE72 /* Assets.xcassets */; };
 		6E4838863A0DFDD689961311 /* Pods_sunLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C5A42BE1581464225F25B /* Pods_sunLight.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +30,9 @@
 		66A9EEE91FE2790500C0DE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A9EEEC1FE2790500C0DE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A9EEEE1FE2790500C0DE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A9EF171FE8E90B00C0DE72 /* sunLight Div.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sunLight Div.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A9EF181FE8E90C00C0DE72 /* sunLight Div-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "sunLight Div-Info.plist"; path = "/Users/sunqingming/Documents/GitHub/sunlight/sunLight/sunLight/sunLight Div-Info.plist"; sourceTree = "<absolute>"; };
+		66A9EF1E1FE8F86D00C0DE72 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9D0C5A42BE1581464225F25B /* Pods_sunLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sunLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52887A03C73C68840B34B8C /* Pods-sunLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sunLight/Pods-sunLight.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,6 +43,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4838863A0DFDD689961311 /* Pods_sunLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A9EF0C1FE8E90B00C0DE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9EF0D1FE8E90B00C0DE72 /* Pods_sunLight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				66A9EEDF1FE2790500C0DE72 /* sunLight.app */,
+				66A9EF171FE8E90B00C0DE72 /* sunLight Div.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +94,8 @@
 				66A9EEE91FE2790500C0DE72 /* Assets.xcassets */,
 				66A9EEEB1FE2790500C0DE72 /* LaunchScreen.storyboard */,
 				66A9EEEE1FE2790500C0DE72 /* Info.plist */,
+				66A9EF181FE8E90C00C0DE72 /* sunLight Div-Info.plist */,
+				66A9EF1E1FE8F86D00C0DE72 /* PrefixHeader.pch */,
 			);
 			path = sunLight;
 			sourceTree = "<group>";
@@ -111,6 +131,26 @@
 			productReference = 66A9EEDF1FE2790500C0DE72 /* sunLight.app */;
 			productType = "com.apple.product-type.application";
 		};
+		66A9EF071FE8E90B00C0DE72 /* sunLight Div */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A9EF141FE8E90B00C0DE72 /* Build configuration list for PBXNativeTarget "sunLight Div" */;
+			buildPhases = (
+				66A9EF081FE8E90B00C0DE72 /* [CP] Check Pods Manifest.lock */,
+				66A9EF091FE8E90B00C0DE72 /* Sources */,
+				66A9EF0C1FE8E90B00C0DE72 /* Frameworks */,
+				66A9EF0E1FE8E90B00C0DE72 /* Resources */,
+				66A9EF121FE8E90B00C0DE72 /* [CP] Embed Pods Frameworks */,
+				66A9EF131FE8E90B00C0DE72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sunLight Div";
+			productName = sunLight;
+			productReference = 66A9EF171FE8E90B00C0DE72 /* sunLight Div.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -124,6 +164,9 @@
 				TargetAttributes = {
 					66A9EEDE1FE2790500C0DE72 = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					66A9EF071FE8E90B00C0DE72 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				66A9EEDE1FE2790500C0DE72 /* sunLight */,
+				66A9EF071FE8E90B00C0DE72 /* sunLight Div */,
 			);
 		};
 /* End PBXProject section */
@@ -152,8 +196,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A9EEED1FE2790500C0DE72 /* LaunchScreen.storyboard in Resources */,
-				66A9EEEA1FE2790500C0DE72 /* Assets.xcassets in Resources */,
+				66A9EF1B1FE8F3DA00C0DE72 /* Assets.xcassets in Resources */,
 				66A9EEE81FE2790500C0DE72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A9EF0E1FE8E90B00C0DE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9EF0F1FE8E90B00C0DE72 /* LaunchScreen.storyboard in Resources */,
+				66A9EF1C1FE8F47500C0DE72 /* Assets.xcassets in Resources */,
+				66A9EF111FE8E90B00C0DE72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +233,63 @@
 			showEnvVarsInLog = 0;
 		};
 		60231DCC2AF9A846E8C522B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunLight/Pods-sunLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A9EF081FE8E90B00C0DE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sunLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A9EF121FE8E90B00C0DE72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sunLight/Pods-sunLight-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunLight/Pods-sunLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A9EF131FE8E90B00C0DE72 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +337,15 @@
 			files = (
 				66A9EEE51FE2790500C0DE72 /* ViewController.swift in Sources */,
 				66A9EEE31FE2790500C0DE72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A9EF091FE8E90B00C0DE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9EF0A1FE8E90B00C0DE72 /* ViewController.swift in Sources */,
+				66A9EF0B1FE8E90B00C0DE72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +485,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JVMQ7S4HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sunLight/PrefixHeader.pch";
 				INFOPLIST_FILE = sunLight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sunlight.sunLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,13 +504,53 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JVMQ7S4HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sunLight/PrefixHeader.pch";
 				INFOPLIST_FILE = sunLight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sunlight.sunLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		66A9EF151FE8E90B00C0DE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52887A03C73C68840B34B8C /* Pods-sunLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Div";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JVMQ7S4HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sunLight/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/sunLight/sunLight Div-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sunlight.sunLight-Div";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66A9EF161FE8E90B00C0DE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145021F3DDC1ED75F7A9BC7B /* Pods-sunLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Div";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JVMQ7S4HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sunLight/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/sunLight/sunLight Div-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sunlight.sunLight-Div";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +571,15 @@
 			buildConfigurations = (
 				66A9EEF21FE2790500C0DE72 /* Debug */,
 				66A9EEF31FE2790500C0DE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A9EF141FE8E90B00C0DE72 /* Build configuration list for PBXNativeTarget "sunLight Div" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A9EF151FE8E90B00C0DE72 /* Debug */,
+				66A9EF161FE8E90B00C0DE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
